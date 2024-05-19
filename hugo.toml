@@ -4,4 +4,13 @@ theme = 'hermit-v2'
 
 
 title = 'Tijolo Tech'
-homeSubtitle = "Olá mundo asdfasdf"
+[params]
+    homeSubtitle = "Construindo o futuro da sua empresa com você"
+    homeSubtitlePrinter = true
+
+
+[menu]
+    [[menu.main]]
+        name = "Contate-nos"
+        url = "contact-me/"
+        weight = 20
